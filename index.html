@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bakery Mommy</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
@@ -13,25 +14,25 @@
           <img src="./images/logo.svg" alt="Logotype Bakery Mommy" />
         </a>
         <ul>
-          <li><a href="#">Franchise</a></li>
-          <li><a href="#">Our traditions</a></li>
-          <li><a href="#">Formats</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a class="link" href="#traditions">Our traditions</a></li>
+          <li><a class="link" href="#chefs">Our chefs</a></li>
+          <li><a class="link" href="#formats">Formats</a></li>
+          <li><a class="link" href="#join-bakery">Contacts</a></li>
         </ul>
       </nav>
-      <button type="button">Order a call back</button>
+      <button class="button" type="button">Order a call back</button>
     </header>
     <main>
       <section>
-        <h1>Bakery</h1>
+        <h1 class="hero-title"><span class="accent">Our</span> Bakery</h1>
       </section>
-      <section>
-        <ul>
+      <section id="traditions">
+        <ul class="advantages-list">
           <li>Asking in the markets</li>
           <li>Talking with bakers and chefs from different cities</li>
           <li>Analyzing popular bakery formats in worldwide</li>
         </ul>
-        <h2>New tradition formats</h2>
+        <h2 class="section-title">New tradition formats</h2>
         <p>
           <span>shop bakery</span> - a place where you can buy fresh pastries
           and bread made with love and care.
@@ -42,8 +43,10 @@
         </p>
         <img src="./images/baker-man.jpg" alt="Baker man with bread" />
       </section>
-      <section>
-        <h2>Our chefs</h2>
+      <section id="chefs">
+        <h2 class="section-title">
+          The best <span class="accent">Our chefs</span>
+        </h2>
         <ul>
           <li>
             <article>
@@ -63,8 +66,8 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Formats</h2>
+      <section id="formats">
+        <h2 class="section-title">Formats</h2>
         <ul>
           <li>
             <article>
@@ -83,8 +86,16 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Join bakery</h2>
+      <section id="join-bakery">
+        <h2 class="section-title">Join bakery</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1103.0243444570835!2d35.2317066412055!3d47.7859459855196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc5f21754fb999%3A0x766f76f033fd29f1!2z0J_RltGG0LXRgNGW0Y8gSVEgUGl6emE!5e1!3m2!1sru!2sua!4v1764596390792!5m2!1sru!2sua"
+          width="603"
+          height="595"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </section>
     </main>
     <footer>
@@ -93,8 +104,8 @@
           <img src="./images/logo.svg" alt="Logotype Bakery Mommy" />
         </a>
         <ul>
-          <li><a href="#">Franchise</a></li>
           <li><a href="#">Our traditions</a></li>
+          <li><a href="#">Our chefs</a></li>
           <li><a href="#">Formats</a></li>
           <li><a href="#">Contacts</a></li>
         </ul>
@@ -106,7 +117,9 @@
             <a href="mailto:info@bakerymommy.com">info@bakerymommy.com</a>
           </li>
           <li>
-            <a href="#" target="_blank">123 Baker St, Sweet City </a>
+            <a href="https://maps.app.goo.gl/ngYsVqFyqBK4pZq5A" target="_blank"
+              >123 Baker St, Sweet City
+            </a>
           </li>
           <li>
             <a href="#">
@@ -120,7 +133,7 @@
           </li>
         </ul>
         <a href="#" target="_blank">Politics confidentiality</a>
-        <p>&copy; 2024 Bakery Mommy. All rights reserved.</p>
+        <p>&copy; 2025 Bakery Mommy. All rights reserved.</p>
       </address>
     </footer>
   </body>
